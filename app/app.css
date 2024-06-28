@@ -1,0 +1,23 @@
+@import url('https://api.fontshare.com/v2/css?f[]=satoshi@1,2&display=swap');
+
+* {
+    font-family: "Satoshi", sans-serif;
+}
+
+.custom-spacing {
+    word-spacing: 6px;
+}
+
+.wahatag {
+    font-size: 20px;
+    color: #313131 !important;
+    font-weight: bold;
+    display: flex;
+    gap: 9px;
+
+    text-decoration: underline; 
+}
+
+.wahatag svg {
+    width: 20px;
+}
