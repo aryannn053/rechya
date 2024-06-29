@@ -33,8 +33,11 @@
 }
 
 @media only screen and (max-width: 1025px) {
-    .flexbox-rechya {
+    .flexbox-custom {
         display: table-row;
+        position: relative;
+
+        top: 20px;
     }
 }
 
