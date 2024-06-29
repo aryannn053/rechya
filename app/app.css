@@ -21,3 +21,23 @@
 .wahatag svg {
     width: 20px;
 }
+
+.flexbox-rechya {
+    display: flex;
+    gap: 60px;
+}
+
+.flexbox-custom {
+    display: flex;
+    gap: 60px;
+}
+
+@media only screen and (max-width: 1025px) {
+    .flexbox-rechya {
+        display: table-row;
+    }
+}
+
+.flexbox-rechya img {
+    width: 900px;
+}
